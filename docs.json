@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Introduction",
+        "tab": "General",
         "groups": [
           {
             "group": "Getting started",
@@ -52,7 +52,12 @@
               "code/edit",
               "code/sync-github"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Project & Organization",
+        "groups": [
           {
             "group": "Project",
             "pages": [
