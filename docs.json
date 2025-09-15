@@ -66,6 +66,18 @@
             ]
           }
         ]
+      }, 
+      {
+        "tab": "Learning",
+        "groups": []
+      },
+      {
+        "tab": "Glossary",
+        "groups": []
+      },
+      {
+        "tab": "Changelog",
+        "groups": []
       }
     ],
     "global": {
