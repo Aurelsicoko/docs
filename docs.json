@@ -17,19 +17,18 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Content",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Assets",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -38,7 +37,15 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Preview",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "Code",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
