@@ -52,6 +52,25 @@
               "code/edit",
               "code/sync-github"
             ]
+          },
+          {
+            "group": "Project",
+            "pages": [
+              "project/introduction",
+              "project/collaboration",
+              "project/history",
+              "project/settings"
+            ]
+          },
+          {
+            "group": "Organization",
+            "pages": [
+              "organization/introduction",
+              "organization/projects",
+              "organization/members",
+              "organization/invite",
+              "organization/billing-usage"
+            ]
           }
         ]
       },
