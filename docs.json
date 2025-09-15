@@ -21,35 +21,36 @@
             ]
           },
           {
+            "group": "Preview",
+            "pages": [
+              "preview/introduction",
+              "preview/edit",
+              "preview/comments",
+              "preview/refresh",
+              "preview/responsive"
+            ]
+          },
+          {
             "group": "Content",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "content/introduction",
+              "content/collections",
+              "content/entries"
             ]
           },
           {
             "group": "Assets",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Preview",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "assets/introduction",
+              "assets/upload"
             ]
           },
           {
             "group": "Code",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "code/introduction",
+              "code/edit-online",
+              "code/sync-github"
             ]
           }
         ]
