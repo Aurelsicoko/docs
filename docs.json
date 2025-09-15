@@ -49,7 +49,7 @@
             "group": "Code",
             "pages": [
               "code/introduction",
-              "code/edit-online",
+              "code/edit",
               "code/sync-github"
             ]
           }
