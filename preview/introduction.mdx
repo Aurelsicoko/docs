@@ -74,25 +74,6 @@ Publishing creates a read-only snapshot of your website. Production remains unch
   </Step>
 </Steps>
 
-## Visual diagram
-
-```mermaid
-flowchart LR
-  subgraph TeamWorkspace [Preview]
-    A[Edit Mode] --> P[Preview State]
-    B[Comment Mode] --> P
-    C[Responsive Mode] --> P
-    D[Add Pages / Assets / Code] --> P
-  end
-
-  P -->|Publish| S[Snapshot]
-  S -->|Deploy| PROD[(Production - Read Only)]
-
-  classDef preview fill:#eef5ff,stroke:#5b8def,color:#1a2b4b;
-  classDef prod fill:#f6fff0,stroke:#53a451,color:#1b3a1b;
-  class TeamWorkspace preview;
-  class PROD prod;
-```
 
 ## What’s next?
 
