@@ -1,5 +1,35 @@
 ---
-title: 'Refresh'
-description: 'Display inline code and code blocks'
-icon: 'arrows-rotate'
+title: "Refresh"
+description: "Reload the preview window to get the latest version."
+icon: "rotate-right"
 ---
+
+The **Refresh** action reloads the preview window. It pulls the latest code and data so you always see the current state of your site.  
+
+<Note>
+Fimo updates the preview window in real time. Use the refresh button only if something looks out of date or the connection dropped.
+</Note>
+
+## What it does
+
+<Columns cols={3}>
+  <Card title="Code" icon="code">
+    Loads the latest project code.
+  </Card>
+  <Card title="Data" icon="database">
+    Fetches updated content and assets.
+  </Card>
+  <Card title="Connection" icon="wifi">
+    Resyncs the preview window if the session was interrupted.
+  </Card>
+</Columns>
+
+## When to use it
+
+- Recent edits don’t appear in the preview window  
+- You changed code or content outside the editor  
+- The preview session stopped updating  
+
+## How to use
+
+Click the **Refresh** button in the preview toolbar. The site will reload with the latest version.
