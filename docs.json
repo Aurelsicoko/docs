@@ -23,7 +23,7 @@
           {
             "group": "Preview",
             "pages": [
-              "preview/introduction",
+              "preview/overview",
               "preview/edit",
               "preview/comments",
               "preview/refresh",
@@ -33,7 +33,7 @@
           {
             "group": "Content",
             "pages": [
-              "content/introduction",
+              "content/overview",
               "content/collections",
               "content/entries"
             ]
@@ -41,14 +41,14 @@
           {
             "group": "Assets",
             "pages": [
-              "assets/introduction",
+              "assets/overview",
               "assets/upload"
             ]
           },
           {
             "group": "Code",
             "pages": [
-              "code/introduction",
+              "code/overview",
               "code/edit",
               "code/sync-github"
             ]
@@ -61,7 +61,7 @@
           {
             "group": "Project",
             "pages": [
-              "project/introduction",
+              "project/overview",
               "project/collaboration",
               "project/history",
               "project/settings"
@@ -70,7 +70,7 @@
           {
             "group": "Organization",
             "pages": [
-              "organization/introduction",
+              "organization/overview",
               "organization/projects",
               "organization/members",
               "organization/invite",
