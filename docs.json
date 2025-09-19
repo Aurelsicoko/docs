@@ -25,7 +25,6 @@
             "pages": [
               "preview/overview",
               "preview/edit",
-              "preview/comments",
               "preview/refresh",
               "preview/responsive"
             ]
