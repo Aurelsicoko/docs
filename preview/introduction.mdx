@@ -1,38 +1,102 @@
 ---
 title: "Introduction"
-description: "Learn how to use Preview to safely collaborate and test changes before going live."
+description: "Preview lets you test and collaborate safely before publishing."
 icon: "door-open"
 ---
 
 # Preview
 
-The **Preview** is your team’s workspace for building and experimenting with your website.  
-Every change you make here is reflected instantly in the Preview, but your published site remains safe and unchanged.
+The **Preview** is your workspace for building and experimenting with your site.
+Changes show up instantly here, while your published site stays safe and unchanged.
 
 ## Why use Preview?
 
 <Columns cols={2}>
   <Card title="Safe by design" icon="shield">
-    Each time you publish, Fimo creates a **read-only snapshot** of your site.  
-    Your production website is never affected until you decide to deploy again.
+    Every time you publish, Fimo saves a read-only snapshot of your site.
+    Your live site is never affected until you deploy again.
   </Card>
 
   <Card title="Live collaboration" icon="users">
-    Work together in real time. Teammates can edit, style, and comment directly inside the Preview.
+    Work together in real time. Teammates can edit, style, and comment inside Preview.
   </Card>
 
   <Card title="Instant updates" icon="bolt">
-    Change content, swap assets, or add pages — everything refreshes instantly in the Preview.
+    Edit content, swap assets, or add pages, and see the result right away.
   </Card>
 
   <Card title="Flexible editing" icon="palette">
-    Use AI to generate changes or adjust details manually with the style and content editors.
+    Use AI for quick changes or adjust details with the style and content editors.
   </Card>
 </Columns>
 
+## Preview vs Production
+
+<Tip>
+Preview looks like your site, but it is private to your team. Production is the public version that visitors see.
+</Tip>
+
+<Columns cols={2}>
+  <Card title="Preview" icon="eye">
+    <ul>
+      <li>Private to your team</li>
+      <li>Live updates as you edit</li>
+      <li>Safe sandbox for experiments</li>
+      <li>Ideal for reviews and QA</li>
+    </ul>
+  </Card>
+
+  <Card title="Production" icon="globe">
+    <ul>
+      <li>Public and SEO-visible</li>
+      <li>Read-only snapshot from last publish</li>
+      <li>No changes until you publish again</li>
+      <li>Optimized and stable for visitors</li>
+    </ul>
+  </Card>
+</Columns>
+
+<Note>
+Publishing creates a read-only snapshot of your website. Production remains unchanged until you publish the latest Preview state.
+</Note>
+
+## Workflow at a glance
+
+<Steps>
+  <Step title="Make changes in Preview">
+    Use Edit mode to update content and styles. Add pages and assets. Collaborate with comments.
+  </Step>
+  <Step title="Review together">
+    Stakeholders review in real time. Resolve comments and finalize changes.
+  </Step>
+  <Step title="Publish to Production">
+    Publish when ready. Fimo deploys a new read-only snapshot as your live site.
+  </Step>
+</Steps>
+
+## Visual diagram
+
+```mermaid
+flowchart LR
+  subgraph TeamWorkspace [Preview]
+    A[Edit Mode] --> P[Preview State]
+    B[Comment Mode] --> P
+    C[Responsive Mode] --> P
+    D[Add Pages / Assets / Code] --> P
+  end
+
+  P -->|Publish| S[Snapshot]
+  S -->|Deploy| PROD[(Production - Read Only)]
+
+  classDef preview fill:#eef5ff,stroke:#5b8def,color:#1a2b4b;
+  classDef prod fill:#f6fff0,stroke:#53a451,color:#1b3a1b;
+  class TeamWorkspace preview;
+  class PROD prod;
+```
+
 ## What’s next?
 
-The Preview workspace includes three powerful modes to refine your website:
+Preview includes three modes to refine your site:
 
 <Columns cols={3}>
   <Card
@@ -40,7 +104,7 @@ The Preview workspace includes three powerful modes to refine your website:
     icon="pen-to-square"
     href="/preview/edit"
   >
-    Make content and style changes directly in your site.
+    Change content and styles directly in your site.
   </Card>
 
   <Card
@@ -56,10 +120,6 @@ The Preview workspace includes three powerful modes to refine your website:
     icon="mobile-screen"
     href="/preview/responsive"
   >
-    Test and adjust your site across different screen sizes.
+    Test your site across different screen sizes.
   </Card>
 </Columns>
-
-<Note>
-  The Preview is your safe sandbox. Explore ideas, collaborate with your team, and test changes freely — your production site only updates when you publish.
-</Note>
