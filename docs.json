@@ -49,7 +49,7 @@
             "pages": [
               "code/overview",
               "code/edit",
-              "code/github"
+              "code/github-sync"
             ]
           }
         ]
