@@ -1,5 +1,58 @@
 ---
-title: 'Edit online'
-description: 'Display inline code and code blocks'
-icon: 'code'
+title: "Edit online"
+description: "Make changes directly in the browser editor."
+icon: "code"
 ---
+
+The **Edit online** feature lets you update your site’s code directly in Fimo’s built-in editor.  
+No setup required — everything happens in your browser.
+
+## What you can do
+
+- **View files**: open and explore your project’s codebase  
+- **Edit code**: update logic, styles, or layouts instantly  
+- **Delete files**: remove code you no longer need  
+- **Real-time preview**: see changes applied right away in the Preview window  
+
+## How saving works
+
+Every change you make is saved instantly.  
+Behind the scenes, Fimo groups your edits into a single commit after **1 minute of inactivity**, so your history stays clean and easy to follow.
+
+<Note>
+Fimo relies on **Git** under the hood. This follows development best practices and makes it easy for engineers to jump into your project for advanced or custom development.
+</Note>
+
+## Why it matters
+
+<Columns cols={2}>
+  <Card title="No setup" icon="laptop-code">
+    Edit code directly in the browser, no local environment needed.
+  </Card>
+  <Card title="Instant results" icon="bolt">
+    Changes appear in the Preview window as soon as you save.
+  </Card>
+  <Card title="Automatic commits" icon="clock">
+    Edits are grouped into commits after 1 minute of inactivity.
+  </Card>
+  <Card title="Best practices" icon="git-alt">
+    Your codebase is backed by Git, so it’s structured and ready for engineers.
+  </Card>
+</Columns>
+
+## Workflow at a glance
+
+<Steps>
+  <Step title="Open the Code tab">
+    Navigate to the file you want to edit.
+  </Step>
+  <Step title="Make your changes">
+    Type directly in the editor — logic, styles, or content.
+  </Step>
+  <Step title="Preview instantly">
+    Switch to the Preview window to see your updates in real time.
+  </Step>
+  <Step title="Commits handled automatically">
+    After 1 minute of inactivity, your edits are grouped into a commit.
+  </Step>
+</Steps>
