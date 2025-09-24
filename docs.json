@@ -51,12 +51,15 @@
               "code/edit",
               "code/github-sync"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Project & Organization",
-        "groups": [
+          },
+          {
+            "group": "Publish",
+            "pages": [
+              "publish/overview",
+              "publish/deployment",
+              "publish/custom-domains"
+            ]
+          },
           {
             "group": "Project",
             "pages": [
@@ -79,7 +82,11 @@
         ]
       },
       {
-        "tab": "Learning",
+        "tab": "Guides",
+        "groups": []
+      },
+      {
+        "tab": "Tips & Tricks",
         "groups": []
       },
       {
