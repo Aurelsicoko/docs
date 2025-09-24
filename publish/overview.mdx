@@ -1,6 +1,62 @@
 ---
-title: 'Publish overview'
-sidebarTitle: 'Overview'
-description: 'Display inline code and code blocks'
-icon: 'door-open'
+title: "Publish overview"
+sidebarTitle: "Overview"
+description: "Push the current Preview to your live site in one click."
+icon: "door-open"
 ---
+
+Publishing is the final step to make your work public. In Fimo, you do not configure servers or pipelines. Click **Publish** in the top-right of your project and Fimo builds your site and makes it live, typically in under a minute.
+
+### What Publish does?
+
+- <Icon icon="bolt"/> **Builds and deploys** the current **Preview** state  
+- <Icon icon="shield"/> **Creates a read-only snapshot** for Production  
+- <Icon icon="arrows-rotate"/> **Updates all pages and assets** in one go
+
+<Note>
+Your live site never changes until you publish. All edits remain in the preview window only.
+</Note>
+
+## How it works?
+
+<Steps>
+  <Step title="Review in Preview">
+    Make and test your changes in the preview window. Content, styles, code, and assets.
+  </Step>
+  <Step title="Click Publish">
+    Use the **Publish** button in the top-right corner of your project.
+  </Step>
+  <Step title="Fimo deploys">
+    Fimo builds your project, takes a read-only snapshot, and serves it as your live site.
+  </Step>
+</Steps>
+
+## Why it matters?
+
+<Columns cols={2}>
+  <Card title="Simple and safe" icon="check">
+    One click to go live. Production is a stable snapshot.
+  </Card>
+  <Card title="Team-friendly" icon="users">
+    Collaborate freely in Preview without affecting visitors.
+  </Card>
+</Columns>
+
+## What’s next?
+
+<Columns cols={2}>
+  <Card
+    title="Deployment details"
+    icon="server"
+    href="/publish/deployment"
+  >
+    Learn what happens during a publish and how statuses work.
+  </Card>
+  <Card
+    title="Custom domains"
+    icon="globe"
+    href="/publish/custom-domains"
+  >
+    Connect your domain so visitors reach your live site.
+  </Card>
+</Columns>
