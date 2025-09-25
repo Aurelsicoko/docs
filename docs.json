@@ -10,6 +10,17 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      { 
+        "tab": "Welcome",
+        "pages": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index"
+            ]
+          }
+        ],
+      },
       {
         "tab": "General",
         "groups": [
