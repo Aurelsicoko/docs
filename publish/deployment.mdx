@@ -1,6 +1,48 @@
 ---
-title: 'Deployment'
-sidebarTitle: 'Deployment'
-description: 'Display inline code and code blocks'
-icon: 'server'
+title: "Deployment"
+sidebarTitle: "Deployment"
+description: "Publish your site safely under a Fimo subdomain or a custom domain."
+icon: "server"
 ---
+
+Publishing your project creates a live version of your site. It takes less than a minute and is always free.
+
+## How to deploy?
+
+- Click the **Publish** button in the top-right corner of your project.  
+- Optionally, edit your subdomain in **Project Settings**. Your site will be published at **xxxxxx.fimo.site**.  
+- For a custom domain, see the [Custom domains](/publish/custom-domains) page.  
+
+<Note>
+Deployment is safe. Fimo creates a **read-only snapshot** of your preview database and builds a live version of your site from it.
+</Note>
+
+## What happens during deployment?
+
+- Your site is built and optimized for production.  
+- A snapshot of your preview database is saved.  
+- Your content is published under your chosen domain.  
+- The whole process usually completes in under a minute.  
+
+## What happens after deployment?
+
+- A notification appears when deployment finishes.  
+- Your site is live at the generated URL.  
+- You can share the link with friends, colleagues, or customers.  
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="Why did my website fail to deploy?" icon="circle-question">
+    This can happen if an error occurs during build. Copy the error message and paste it in the AI chat to understand and fix it.  
+    If the error persists, your site was not deployed successfully.
+  </Accordion>
+  <Accordion title="Why is my site not live after deployment?" icon="circle-question">
+    This may happen if you have exceeded the free bandwidth limit (maximum free traffic allowed).  
+    You can still publish, but your site will remain offline until you upgrade.
+  </Accordion>
+  <Accordion title="Can I unpublish my site?" icon="circle-question">
+    Yes. Go to your **Project Settings** page and choose to unpublish.  
+    Your preview environment stays intact and safe.
+  </Accordion>
+</AccordionGroup>
