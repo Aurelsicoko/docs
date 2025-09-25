@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "mint",
   "name": "Fimo Documentation",
   "colors": {
     "primary": "#4945FF",
@@ -54,7 +54,7 @@
           },
           {
             "group": "Organization",
-            "expanded": true,
+            "expanded": false,
             "pages": [
               "organization/projects",
               "organization/members",
