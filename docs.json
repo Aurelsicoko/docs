@@ -53,13 +53,48 @@
       {
         "tab": "Concepts",
         "menu": [
-          "preview/overview",
-          "content/introduction",
-          "assets/overview",
-          "code/overview",
-          "publish/overview",
-          "project/overview",
-          "organization/overview"
+          {
+            "item": "Preview",
+            "description": "Discover the power of Preview.",
+            "pages": [
+              "preview/overview"
+            ]
+          },
+          {
+            "item": "Content",
+            "description": "Discover the power of CMS.",
+            "pages": [
+              "content/introduction"
+            ]
+          },
+          {
+            "item": "Assets",
+            "description": "Discover the power of Media Library.",
+            "pages": [
+              "assets/overview"
+            ]
+          }
+          ,{
+            "item": "Code",
+            "description": "Discover the power of Code.",
+            "pages": [
+              "code/overview"
+            ]
+          },
+          {
+            "item": "Deployment",
+            "description": "SDKs are used to interact with the API.",
+            "pages": [
+              "publish/overview"
+            ]
+          },
+          {
+            "item": "Organization",
+            "description": "SDKs are used to interact with the API.",
+            "pages": [
+              "organization/overview"
+            ]
+          }
         ]
       },
       {
