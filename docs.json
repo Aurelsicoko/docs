@@ -55,7 +55,7 @@
        "menu": [
           {
             "item": "Preview",
-            "description": "Test & refine your site live.",
+            "description": "Test and refine your site live.",
             "pages": ["preview/overview"]
           },
           {
@@ -65,22 +65,22 @@
           },
           {
             "item": "Assets",
-            "description": "Store, organize, & reuse media.",
+            "description": "Store, organize, and reuse media.",
             "pages": ["assets/overview"]
           },
           {
             "item": "Code",
-            "description": "Edit and control your code.",
+            "description": "Edit and control your site's code.",
             "pages": ["code/overview"]
           },
           {
             "item": "Deployment",
-            "description": "Publish your site to the web.",
+            "description": "Publish your site to the web fast.",
             "pages": ["publish/overview"]
           },
           {
             "item": "Organization",
-            "description": "Manage members, roles, & teams.",
+            "description": "Manage members, roles & teams.",
             "pages": ["organization/overview"]
           }
         ]
