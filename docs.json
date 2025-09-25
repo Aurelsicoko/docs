@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "aspen",
   "name": "Fimo Documentation",
   "colors": {
     "primary": "#4945FF",
@@ -19,21 +19,7 @@
               "index",
               "quickstart"
             ]
-          },
-          {
-            "group": "Concepts",
-            "expanded": false,
-            "pages": [
-              "preview/overview",
-              "content/introduction",
-              "assets/overview",
-              "code/overview",
-              "publish/overview",
-              "project/overview",
-              "organization/overview"
-            ]
-          },
-          
+          },    
           {
             "group": "Core Features",
             "expanded": true,
@@ -62,6 +48,18 @@
               "organization/billing-usage"
             ]
           }
+        ]
+      },
+      {
+        "tab": "Concepts",
+        "menu": [
+          "preview/overview",
+          "content/introduction",
+          "assets/overview",
+          "code/overview",
+          "publish/overview",
+          "project/overview",
+          "organization/overview"
         ]
       },
       {
