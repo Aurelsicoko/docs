@@ -154,5 +154,12 @@
       "discord": "https://discord.gg/fimoai",
       "linkedin": "https://linkedin.com/company/fimoai"
     }
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "This page is in motion",
+      "description": "Looks like it moved faster than us. Let’s head back and keep building!"
+    }
   }
 }
