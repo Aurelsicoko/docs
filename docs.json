@@ -52,37 +52,14 @@
       },
       {
         "tab": "Concepts",
-       "menu": [
-          {
-            "item": "Preview",
-            "description": "Test and refine your site live.",
-            "pages": ["preview/overview"]
-          },
-          {
-            "item": "Content",
-            "description": "Enjoy a built-in CMS.",
-            "pages": ["content/introduction"]
-          },
-          {
-            "item": "Assets",
-            "description": "Store, organize, and reuse media.",
-            "pages": ["assets/overview"]
-          },
-          {
-            "item": "Code",
-            "description": "Edit and control your site's code.",
-            "pages": ["code/overview"]
-          },
-          {
-            "item": "Deployment",
-            "description": "Publish your site to the web fast.",
-            "pages": ["publish/overview"]
-          },
-          {
-            "item": "Organization",
-            "description": "Manage members, roles & teams.",
-            "pages": ["organization/overview"]
-          }
+        "pages": [
+          "preview/overview",
+          "content/introduction",
+          "assets/overview",
+          "code/overview",
+          "publish/overview",
+          "project/overview",
+          "organization/overview"
         ]
       },
       {
