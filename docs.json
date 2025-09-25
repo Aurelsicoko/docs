@@ -55,48 +55,36 @@
         "menu": [
           {
             "item": "Preview",
-            "description": "Discover the power of Preview.",
-            "pages": [
-              "preview/overview"
-            ]
+            "description": "Preview changes safely in real time.",
+            "pages": ["preview/overview"]
           },
           {
             "item": "Content",
-            "description": "Discover the power of CMS.",
-            "pages": [
-              "content/introduction"
-            ]
+            "description": "Manage all site content with the CMS.",
+            "pages": ["content/introduction"]
           },
           {
             "item": "Assets",
-            "description": "Discover the power of Media Library.",
-            "pages": [
-              "assets/overview"
-            ]
-          }
-          ,{
+            "description": "Organize and reuse your media library.",
+            "pages": ["assets/overview"]
+          },
+          {
             "item": "Code",
-            "description": "Discover the power of Code.",
-            "pages": [
-              "code/overview"
-            ]
+            "description": "Edit and control the code of your site.",
+            "pages": ["code/overview"]
           },
           {
             "item": "Deployment",
-            "description": "SDKs are used to interact with the API.",
-            "pages": [
-              "publish/overview"
-            ]
+            "description": "Publish your website live in seconds.",
+            "pages": ["publish/overview"]
           },
           {
             "item": "Organization",
-            "description": "SDKs are used to interact with the API.",
-            "pages": [
-              "organization/overview"
-            ]
+            "description": "Manage members, teams, and permissions.",
+            "pages": ["organization/overview"]
           }
         ]
-      },
+      }
       {
         "tab": "Guides",
         "groups": []
