@@ -12,14 +12,9 @@
     "tabs": [
       { 
         "tab": "Welcome",
-        "pages": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index"
-            ]
-          }
-        ],
+        "pages": [ 
+          "index"
+        ]
       },
       {
         "tab": "General",
