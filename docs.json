@@ -21,52 +21,31 @@
             ]
           },
           {
-            "group": "Preview",
-            "pages": [
-              "preview/overview",
-              "preview/edit",
-              "preview/refresh",
-              "preview/responsive"
-            ]
-          },
-          {
-            "group": "Content",
-            "pages": [
-              "content/introduction",
-              "content/collections",
-              "content/entries"
-            ]
-          },
-          {
-            "group": "Assets",
-            "pages": [
-              "assets/overview",
-              "assets/upload"
-            ]
-          },
-          {
-            "group": "Code",
-            "pages": [
-              "code/overview",
-              "code/edit",
-              "code/github-sync"
-            ]
-          },
-          {
-            "group": "Publish",
-            "pages": [
-              "publish/overview",
-              "publish/deployment",
-              "publish/custom-domains"
-            ]
-          },
-          {
-            "group": "Project",
+            "group": "Concepts",
             "pages": [
               "project/overview",
+              "preview/overview",
+              "content/introduction",
+              "assets/overview",
+              "code/overview",
+              "publish/overview",
+            ]
+          },
+          {
+            "group": "Core features",
+            "pages": [
+              "preview/edit",
+              "preview/refresh",
+              "preview/responsive",
+              "content/collections",
+              "content/entries",
+              "assets/upload",
               "project/collaboration",
               "project/history",
-              "project/settings"
+              "code/edit",
+              "code/github-sync",
+              "publish/deployment",
+              "publish/custom-domains"
             ]
           },
           {
