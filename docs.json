@@ -14,7 +14,7 @@
         "tab": "General",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart"
@@ -22,17 +22,21 @@
           },
           {
             "group": "Concepts",
+            "expanded": false,
             "pages": [
-              "project/overview",
               "preview/overview",
               "content/introduction",
               "assets/overview",
               "code/overview",
-              "publish/overview"
+              "publish/overview",
+              "project/overview",
+              "organization/overview"
             ]
           },
+          
           {
-            "group": "Core features",
+            "group": "Core Features",
+            "expanded": true,
             "pages": [
               "preview/edit",
               "preview/refresh",
@@ -50,8 +54,8 @@
           },
           {
             "group": "Organization",
+            "expanded": true,
             "pages": [
-              "organization/overview",
               "organization/projects",
               "organization/members",
               "organization/invite",
