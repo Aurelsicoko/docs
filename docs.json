@@ -17,7 +17,21 @@
             "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart"
+              "quickstart",
+              {
+                "group": "Concepts",
+                "icon": "lightbulb",
+                "pages": [
+                  "concepts",
+                  "preview/overview",
+                  "content/introduction",
+                  "assets/overview",
+                  "code/overview",
+                  "publish/overview",
+                  "project/overview",
+                  "organization/overview"
+                ]
+              }
             ]
           },    
           {
