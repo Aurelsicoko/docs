@@ -53,6 +53,7 @@
       {
         "tab": "Concepts",
         "pages": [
+          "concepts",
           "preview/overview",
           "content/introduction",
           "assets/overview",
