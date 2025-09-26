@@ -15,18 +15,26 @@ The **Members** page shows everyone in your organization and their role. From he
 - **Manage membership**: Update roles or remove members if needed.  
 - **Remove members**: Delete members from the organization and remove their access.  
 
-## Roles in an organization
+## Roles and permissions
 
-Every member has a role that defines their permissions:
-
-| Role    | What they can do |
-|---------|------------------|
-| **Member** | Access projects and use basic features. Ideal for collaborators who only need to work inside projects. |
-| **Admin**  | Manage members and organization settings. Perfect for people who help with structure and administration. |
-| **Owner**  | Full access, including billing control. Reserved for the main account holder or organization leads. |
+| Action                              | Member | Admin | Owner |
+|-------------------------------------|:------:|:-----:|:-----:|
+| **Access**                          |        |       |       |
+| Access projects                     | ✅     | ✅    | ✅    |
+| Use basic features                  | ✅     | ✅    | ✅    |
+| **Members**                         |        |       |       |
+| View members list                   | ✅     | ✅    | ✅    |
+| Invite new members                  | ❌     | ✅    | ✅    |
+| Update roles                        | ❌     | ✅    | ✅    |
+| Remove members                      | ❌     | ✅    | ✅    |
+| **Organization settings**           |        |       |       |
+| View organization settings          | ✅     | ✅    | ✅    |
+| Edit organization settings          | ❌     | ✅    | ✅    |
+| Manage billing & invoices           | ❌     | ❌    | ✅    |
+| Delete organization                 | ❌     | ❌    | ✅    |
 
 <Note>
-    You can have multiple **Admins** or **Owners** in the same organization, depending on your needs.
+    Use **Member** for collaborators, **Admin** for people helping manage the team, and **Owner** for those responsible for billing and full control.
 </Note>
 
 ## Why it matters?
